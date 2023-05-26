@@ -74,7 +74,7 @@ def bugs():
             raise Exception(f"Invalid Project ID: {project_id}")
 
         # url = f"https://{sentry_host}/api/{project_id}/envelope/"
-        url = f"http://sidecar-relay-1:3000/api/{project_id}/envelope/" #might need to check if this is correct
+        url = f"http://selfhosted-relay:3000/api/{project_id}/envelope/" #might need to check if this is correct
         
 
         requests.post(url=url, data=envelope, headers={"Content-Type": "application/x-sentry-envelope"})

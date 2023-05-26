@@ -19,6 +19,7 @@ services:
     image: "redis:alpine"
     
   relay:
+    container_name: selfhosted-relay
     image: "getsentry/relay"
     volumes:
       - ./config/:/work/.relay/:z
