@@ -1,0 +1,12 @@
+{
+    "slug": "dustin-onboarding-react",
+    "publicKeys": [
+      {
+        "publicKey":"4784fbc50de2473f9977cfce8a9adce5",
+        "isEnabled": true
+      }
+    ],
+    "config": {
+      "allowedDomains": ["*"]
+    }
+  }

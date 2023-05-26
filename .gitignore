@@ -1,0 +1,23 @@
+# Ignore general editor and OS files
+.DS_Store
+*.swp
+*.swo
+*.log
+*.pid
+*.pid.lock
+.vscode/
+.idea/
+*.iml
+*.pyc
+
+# Ignore Node.js dependencies
+/node_modules
+
+
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+
+
