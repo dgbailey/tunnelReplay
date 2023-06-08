@@ -6,11 +6,11 @@ import * as Sentry from "@sentry/browser";
 
 Sentry.init({
   dsn: "https://4784fbc50de2473f9977cfce8a9adce5@o87286.ingest.sentry.io/5501941",
-
-  
-  replaysOnErrorSampleRate: 1.0,
   debug:true,
-  // release:"test", want to drop session updates for now
+  beforeSend:function(event){
+    return null
+  }, 
+  replaysOnErrorSampleRate: 1.0,
   tunnel: "http://localhost:8000/bugs",
  
 

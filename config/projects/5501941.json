@@ -7,6 +7,8 @@
       }
     ],
     "config": {
-      "allowedDomains": ["*"]
+      "allowedDomains": ["*"],
+      "features": ["organizations:session-replay","organizations:session-replay-recording-scrubbing"]
+
     }
   }
